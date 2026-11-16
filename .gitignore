@@ -60,6 +60,13 @@ dkms.conf
 
 .vscode/
 
+# KiCAD temp files stuff since we're including the proj here
+*.kicad_prl
+*.lck
+*-backups/
+_autosave-*
+*.kicad_wks.lck
+
 # macOS
 .DS_Store
 
